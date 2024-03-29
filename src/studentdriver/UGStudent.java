@@ -22,7 +22,9 @@ public class UGStudent extends StudentFees {
     public int getCoursesEnrolled(){
         return coursesEnrolled;
     }
-    //public double getPayableAmount(){
+    public double getPayableAmount(){
+        return ADDITIONAL_FEE - scholarshipAmount;
+    }
     
-    //public String to String(){
+    //public String toString(){
 }

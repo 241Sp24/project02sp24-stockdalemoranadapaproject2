@@ -43,5 +43,5 @@ public abstract class StudentFees {
     //public String toString(){
     
     //Abstract Method
-    
+    public abstract double getPayableAmount();
 }
