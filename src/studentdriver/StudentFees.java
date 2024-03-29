@@ -38,13 +38,9 @@ public abstract class StudentFees {
         this.isEnrolled = isEnrolled;
     }
     
-    public boolean isIsEnrolled(){
-        
-    }
+    //public boolean isIsEnrolled(){
     
-    public String toString(){
-        
-    }
+    //public String toString(){
     
     //Abstract Method
     
