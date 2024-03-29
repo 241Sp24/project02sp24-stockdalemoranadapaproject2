@@ -7,6 +7,7 @@ public class StudentDriver {
     public static void main(String[] args) {
 //main code goes here
 Scanner input = new Scanner(System.in);
+FileReader fileread = new FileReader("input.csv");
 
 System.out.println("Enter the no of UG students: );   
 String num_of_UG_students = input.nextLine();
