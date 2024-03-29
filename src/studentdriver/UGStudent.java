@@ -12,4 +12,17 @@ public class UGStudent extends StudentFees {
         this.scholarshipAmount = scholarshipAmount;
         this.coursesEnrolled = coursesEnrolled;
     }
+    
+    //public boolean isHasScholarship(){
+        
+    //Getter Methods
+    public double getScholarshipAmount(){
+        return scholarshipAmount;
+    }
+    public int getCoursesEnrolled(){
+        return coursesEnrolled;
+    }
+    //public double getPayableAmount(){
+    
+    //public String to String(){
 }
