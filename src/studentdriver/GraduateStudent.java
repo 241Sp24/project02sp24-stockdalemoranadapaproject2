@@ -26,8 +26,10 @@ public class GraduateStudent extends StudentFees {
         return coursesEnrolled;
     }
     public double getPayableAmount(){
-        
+        return 
     }
+        
+    
     
     //public String toString(){
 }

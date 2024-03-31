@@ -20,6 +20,10 @@ public abstract class StudentFees {
     public int getStudentID(){
         return studentID;
     }
+    //getisEnrolled method
+    public boolean isIsEnrolled(){
+        return isEnrolled;
+    }
     public int getCREDITS_PER_COURSE(){
         return CREDITS_PER_COURSE;
     }
