@@ -25,6 +25,12 @@ public class UGStudent extends StudentFees {
     public double getPayableAmount(){
         return ADDITIONAL_FEE - scholarshipAmount;
     }
-    
-    //public String toString(){
-}
+
+    public String toString() {
+        return super.toString() + "\n" +
+                "Scholarship: " + hasScholarship + "\n" +
+                "Scholarship amount: " + scholarshipAmount + "\n" +
+                "Courses enrolled: " + coursesEnrolled + "\n" +
+                "Payable amount: " + getPayableAmount();
+    }
+}    
