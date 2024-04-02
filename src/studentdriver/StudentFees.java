@@ -22,10 +22,6 @@ abstract class StudentFees {
         return studentID;
     }
 
-    public boolean isIsEnrolled() {
-        return isEnrolled;
-    }
-
     public int getCREDITS_PER_COURSE() {
         return CREDITS_PER_COURSE;
     }
@@ -47,9 +43,14 @@ abstract class StudentFees {
         this.isEnrolled = isEnrolled;
     }
 
+    public boolean isIsEnrolled() {
+        return isEnrolled;
+    }
+    
+    //public abstract method
     public abstract double getPayableAmount();
 
-    @Override
+    //toString method
     public String toString() {
         return "Student name: " + studentName + "\n" +
                 "Student id: " + studentID + "\n" +
