@@ -29,7 +29,7 @@ public class GraduateStudent extends StudentFees {
     }
     
     public double getPayableAmount(){
-        // return
+        return (coursesEnrolled * CREDITS_PER_COURSE) * PER_CREDIT_FEE;
     }
         
     
