@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 
 public class StudentDriver {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
 Scanner input = new Scanner(System.in);
 
@@ -16,6 +16,9 @@ int num_of_grad_students = input.nextLine();
 
 System.out.println("Enter the no of online students: ");   
 int num_of_online_students = input.nextLine();
+
+StudentFees[] students = new StudentFees[12]; //create array for everything
+
 
 System.out.println("**********Undergraduate students list**********");   
 
