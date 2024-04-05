@@ -28,10 +28,17 @@ System.out.println("**********Graduate students list**********");
 System.out.println("**********Online students list**********");   
 
 //list out online student infomation        
-
-System.out.println("**********Undergraduate Students details***********");   
-System.out.println("**********Graduate Students details**********");   
-System.out.println("**********Online Students details**********");   
+for(StudentFees s: stuList){
+    if(s instanceof UGStudent){
+        System.out.println("**********Undergraduate Students details***********"); 
+    }
+    else if(s instanceof GraduateStudent){
+        System.out.println("**********Graduate Students details**********");  
+    }
+    else{
+        System.out.println("**********Online Students details**********");  
+    }
+}      
     
     }
 }
