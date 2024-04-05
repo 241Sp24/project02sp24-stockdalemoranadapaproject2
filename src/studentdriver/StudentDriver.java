@@ -23,14 +23,18 @@ public class StudentDriver {
 
     StudentFees[] students = new StudentFees[12]; //create array for everything
 
-    /*
+   /*
     File source_file = new File("input.csv");
     while(fileInput.hasNext())
     {
-    put everything in the file in an array
+
+String[] row = line.split(",");
+
+    
     }
     fileInput.close();
     */  
+
 
     //Loop to print out all student details       
     for(StudentFees s: stuList){
