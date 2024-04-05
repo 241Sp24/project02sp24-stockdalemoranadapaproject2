@@ -26,9 +26,8 @@ while(fileInput.hasNext())
 {
 put everything in the file in an array
 }
-*/
-
 fileInput.close();
+*/
 
 System.out.println("**********Undergraduate students list**********");   
 
