@@ -46,9 +46,14 @@ public class StudentDriver {
     for(StudentFees f: stuList){
         if(f instanceof UGStudent){
             System.out.println("**********Undergraduate Students details***********"); 
+            System.out.println("Average Students fee: " + ((UGStudent) f).getPayableAmount());
+            System.out.println("Scholarship count: " + ((UGStudent) f).getScholarshipAmount());
+            System.out.println("Total number of courses: " + ((UGStudent) f).getCoursesEnrolled());
         }
         else if(f instanceof GraduateStudent){
-            System.out.println("**********Graduate Students details**********");  
+            System.out.println("**********Graduate Students details**********");
+            System.out.println("Average Students fee: " + ((GraduateStudent) f).getPayableAmount());
+            
         }
         else{
             System.out.println("**********Online Students details**********");  
