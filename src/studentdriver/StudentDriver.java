@@ -8,6 +8,9 @@ public class StudentDriver {
 
     Scanner input = new Scanner(System.in);
     Scanner fileInput = new Scanner(myFile);
+    
+    //ArrayList to hold all objects
+    ArrayList<StudentFees> stuList = new ArrayList<>();
 
     System.out.println("Enter the no of UG students: ");   
     int num_of_UG_students = input.nextLine();
