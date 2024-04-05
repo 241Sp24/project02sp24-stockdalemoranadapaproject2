@@ -43,13 +43,13 @@ System.out.println("**********Online students list**********");
 //list out online student infomation        
 for(StudentFees s: stuList){
     if(s instanceof UGStudent){
-        System.out.println("**********Undergraduate Students details***********"); 
+        System.out.println("**********Undergraduate Students list***********"); 
     }
     else if(s instanceof GraduateStudent){
-        System.out.println("**********Graduate Students details**********");  
+        System.out.println("**********Graduate Students list**********");  
     }
     else{
-        System.out.println("**********Online Students details**********");  
+        System.out.println("**********Online Students list**********");  
     }
 }      
     
