@@ -7,6 +7,7 @@ public class StudentDriver {
     public static void main(String[] args) throws Exception {
 
 Scanner input = new Scanner(System.in);
+Scanner fileInput = new Scanner(myFile);
 
 System.out.println("Enter the no of UG students: ");   
 int num_of_UG_students = input.nextLine();
@@ -19,6 +20,15 @@ int num_of_online_students = input.nextLine();
 
 StudentFees[] students = new StudentFees[12]; //create array for everything
 
+/*
+File source_file = new File("input.csv");
+while(fileInput.hasNext())
+{
+put everything in the file in an array
+}
+*/
+
+fileInput.close();
 
 System.out.println("**********Undergraduate students list**********");   
 
