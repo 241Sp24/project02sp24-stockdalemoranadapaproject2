@@ -8,13 +8,13 @@ public class StudentDriver {
 
 Scanner input = new Scanner(System.in);
 
-System.out.println("Enter the no of UG students: );   
+System.out.println("Enter the no of UG students: ");   
 int num_of_UG_students = input.nextLine();
 
-System.out.println("Enter the no of Graduate students: );   
+System.out.println("Enter the no of Graduate students: ");   
 int num_of_grad_students = input.nextLine();
 
-System.out.println("Enter the no of online students: );   
+System.out.println("Enter the no of online students: ");   
 int num_of_online_students = input.nextLine();
 
 System.out.println("**********Undergraduate students list**********");   
