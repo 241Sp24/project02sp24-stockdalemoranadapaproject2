@@ -56,10 +56,12 @@ public class StudentDriver {
         else if(f instanceof GraduateStudent){
             System.out.println("**********Graduate Students details**********");
             System.out.println("Average Students fee: " + ((GraduateStudent) f).getPayableAmount());
-            
+            System.out.println("Graduate Assitantship count: ");
+            System.out.println("Total number of courses: " + ((GraduateStudent) f).getCoursesEnrolled());
         }
         else{
-            System.out.println("**********Online Students details**********");  
+            System.out.println("**********Online Students details**********");
+            System.out.println("Average Students fee: " + ((OnlineStudent) f).getPayableAmount());
         }
     }
     
