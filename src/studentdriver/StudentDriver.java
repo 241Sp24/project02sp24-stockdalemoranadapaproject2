@@ -41,6 +41,20 @@ public class StudentDriver {
             System.out.println("**********Online Students list**********");  
         }
     }
+    
+    //Loop to calculate student details
+    for(StudentFees f: stuList){
+        if(f instanceof UGStudent){
+            System.out.println("**********Undergraduate Students details***********"); 
+        }
+        else if(f instanceof GraduateStudent){
+            System.out.println("**********Graduate Students details**********");  
+        }
+        else{
+            System.out.println("**********Online Students details**********");  
+        }
+    }
+    
 
     }
 }
