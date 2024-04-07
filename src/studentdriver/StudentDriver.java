@@ -7,19 +7,18 @@ public class StudentDriver {
     public static void main(String[] args) throws Exception {
 
     Scanner input = new Scanner(System.in);
-    Scanner fileInput = new Scanner(myFile);
-    
+    Scanner fileInput = new Scanner("input.csv");
     //ArrayList to hold all objects
     ArrayList<StudentFees> stuList = new ArrayList<>();
 
     System.out.println("Enter the no of UG students: ");   
-    int num_of_UG_students = input.nextLine();
+    int num_of_UG_students = input.nextInt();
 
     System.out.println("Enter the no of Graduate students: ");   
-    int num_of_grad_students = input.nextLine();
+    int num_of_grad_students = input.nextInt();
 
     System.out.println("Enter the no of online students: ");   
-    int num_of_online_students = input.nextLine();
+    int num_of_online_students = input.nextInt();
 
     StudentFees[] students = new StudentFees[12]; //create array for everything
 
@@ -68,7 +67,5 @@ String[] row = line.split(",");
             System.out.println("Average Students fee: " + ((OnlineStudent) f).getPayableAmount());
         }
     }
-    
-
     }
 }
