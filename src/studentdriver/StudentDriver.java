@@ -5,9 +5,10 @@ import java.io.*;
 
 public class StudentDriver {
     public static void main(String[] args) throws Exception {
-
-    Scanner input = new Scanner(System.in);
-    Scanner fileInput = new Scanner("input.csv");
+        Scanner input = new Scanner(System.in);
+        // Opening the input file
+        File inputFile = new File("input.csv");
+        Scanner fileInput = new Scanner(inputFile);
     //ArrayList to hold all objects
     ArrayList<StudentFees> stuList = new ArrayList<>();
 
