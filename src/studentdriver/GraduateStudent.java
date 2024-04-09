@@ -1,10 +1,12 @@
 package studentdriver;
 
 public class GraduateStudent extends StudentFees {
+    //initializing variables
     private int coursesEnrolled;
     private boolean isGraduateAssistant;
     private String graduateAssistantType;
     private double ADDITIONAL_FEES = 654.45;
+    
     
     public GraduateStudent(String studentName, int studentID, boolean isEnrolled, boolean isGraduateAssistant, String graduateAssistantType, int coursesEnrolled) {
         super(studentName, studentID, isEnrolled);
@@ -18,7 +20,7 @@ public class GraduateStudent extends StudentFees {
         this.isGraduateAssistant = isGraduateAssistant;
         this.coursesEnrolled = coursesEnrolled;
     }
-
+    //isISGraduateAssistant method(get method)
     public boolean isIsGraduateAssistant() {
         return isGraduateAssistant;
     }
@@ -32,12 +34,12 @@ public class GraduateStudent extends StudentFees {
         return (coursesEnrolled * CREDITS_PER_COURSE) * PER_CREDIT_FEE;
     }
         
-    
-public String toString() {
-        return super.toString() + "\n" +
-                "Graduate assistant: " + isGraduateAssistant + "\n" +
-                "Graduate assistant type: " + graduateAssistantType + "\n" +
-                "Courses enrolled: " + coursesEnrolled + "\n" +
-                "Payable amount: " + getPayableAmount();
+    //toString method
+    public String toString() {
+            return super.toString() + "\n" +
+                    "Graduate assistant: " + isGraduateAssistant + "\n" +
+                    "Graduate assistant type: " + graduateAssistantType + "\n" +
+                    "Courses enrolled: " + coursesEnrolled + "\n" +
+                    "Payable amount: " + getPayableAmount();
     }    
 }

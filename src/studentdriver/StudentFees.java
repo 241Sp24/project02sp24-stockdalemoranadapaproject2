@@ -1,6 +1,7 @@
 package studentdriver;
 
 abstract class StudentFees {
+    //initializing the variables
     private String studentName;
     private int studentID;
     private boolean isEnrolled;

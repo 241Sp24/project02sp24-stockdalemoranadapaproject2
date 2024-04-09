@@ -1,6 +1,7 @@
 package studentdriver;
 
 public class UGStudent extends StudentFees {
+    //initializing the variables
     private double scholarshipAmount;
     private int coursesEnrolled;
     private boolean hasScholarship;
@@ -25,7 +26,7 @@ public class UGStudent extends StudentFees {
     public double getPayableAmount(){
         return ADDITIONAL_FEE - scholarshipAmount;
     }
-
+    //toString Method
     public String toString() {
         return super.toString() + "\n" +
                 "Scholarship: " + hasScholarship + "\n" +

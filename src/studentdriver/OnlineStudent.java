@@ -2,7 +2,7 @@ package studentdriver;
 
 
 public class OnlineStudent extends StudentFees {
-    
+    //initializing the variables
     private int noOfMonths;
     private double MONTHLY_FEE = 1245.5;
     
