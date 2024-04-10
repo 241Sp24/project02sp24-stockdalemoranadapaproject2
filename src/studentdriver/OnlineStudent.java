@@ -4,7 +4,7 @@ package studentdriver;
 public class OnlineStudent extends StudentFees {
     //initializing the variables
     private int noOfMonths;
-    private double MONTHLY_FEE = 1245.5;
+    private final double MONTHLY_FEE = 1245.5;
     
     public OnlineStudent(String studentName , int studentID , boolean isEnrolled , int noOfMonths){
         super(studentName, studentID, isEnrolled);
