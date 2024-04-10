@@ -1,6 +1,7 @@
 package studentdriver;
 
 public class GraduateStudent extends StudentFees {
+   
     //initializing variables
     private int coursesEnrolled;
     private boolean isGraduateAssistant;
