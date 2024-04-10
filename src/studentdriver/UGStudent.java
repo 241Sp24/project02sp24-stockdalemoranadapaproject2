@@ -29,9 +29,9 @@ public class UGStudent extends StudentFees {
     //toString Method
     public String toString() {
         return super.toString() + "\n" +
-                "Scholarship: " + hasScholarship + "\n" +
-                "Scholarship amount: " + scholarshipAmount + "\n" +
-                "Courses enrolled: " + coursesEnrolled + "\n" +
-                "Payable amount: " + getPayableAmount();
+                "Scholarship: " + hasScholarship +
+                "\nScholarship amount: " + scholarshipAmount +
+                "\nCourses enrolled: " + coursesEnrolled +
+                "\nPayable amount: " + getPayableAmount();
     }
 }    

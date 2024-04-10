@@ -18,8 +18,8 @@ public class OnlineStudent extends StudentFees {
     
     //toString method
     public String toString() {
-        return super.toString() + "\n" +
-            "No of months: " + noOfMonths + "\n" +
-            "Payable amount: " + getPayableAmount();
+        return super.toString() +
+            "\nNo of months: " + noOfMonths +
+            "\nPayable amount: " + getPayableAmount();
     }
 }

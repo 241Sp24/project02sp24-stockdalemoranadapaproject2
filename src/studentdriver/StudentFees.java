@@ -53,8 +53,8 @@ abstract class StudentFees {
 
     //toString method
     public String toString() {
-        return "Student name: " + studentName + "\n" +
-                "Student id: " + studentID + "\n" +
-                "Enrolled: " + isEnrolled;
+        return "Student name: " + studentName +
+                "\nStudent id: " + studentID +
+                "\nEnrolled: " + isEnrolled;
     }
 }
