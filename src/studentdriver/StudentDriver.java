@@ -32,13 +32,15 @@ public class StudentDriver {
         for(StudentFees s: stuList){
             if(s instanceof UGStudent){
                 System.out.println("**********Undergraduate Students list***********");
-                System.out.println(UGStudent.toString());
+                //System.out.println((UGStudent s).toString());
             }
             else if(s instanceof GraduateStudent){
-                System.out.println("**********Graduate Students list**********");  
+                System.out.println("**********Graduate Students list**********");
+                //System.out.println((GraduateStudent) s).toString();
             }
             else{
-                System.out.println("**********Online Students list**********");  
+                System.out.println("**********Online Students list**********");
+                //System.out.println((OnlineStudent) s).toString());
             }
         }
     
