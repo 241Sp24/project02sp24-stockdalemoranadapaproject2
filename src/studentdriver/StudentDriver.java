@@ -12,13 +12,13 @@ public class StudentDriver {
     //ArrayList to hold all objects
     ArrayList<StudentFees> stuList = new ArrayList<>();
 
-    System.out.println("Enter the no of UG students: ");   
+    System.out.print("Enter the no of UG students: ");   
     int num_of_UG_students = input.nextInt();
 
-    System.out.println("Enter the no of Graduate students: ");   
+    System.out.print("Enter the no of Graduate students: ");   
     int num_of_grad_students = input.nextInt();
 
-    System.out.println("Enter the no of online students: ");   
+    System.out.print("Enter the no of online students: ");   
     int num_of_online_students = input.nextInt();
 
     StudentFees[] students = new StudentFees[12]; //create array for everything
