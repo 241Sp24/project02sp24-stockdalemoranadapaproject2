@@ -9,11 +9,16 @@ public class StudentDriver {
         // Opening the input file
         File inputFile = new File("input.csv");
         Scanner fileInput = new Scanner(inputFile);
-    //ArrayList to hold all objects
-    ArrayList<StudentFees> stuList = new ArrayList<>();
+    
+        //Loop to read through the lines in the file
+        //while(fileInput.hasNext()){
+        
+        
+        //ArrayList to hold all objects
+        ArrayList<StudentFees> stuList = new ArrayList<>();
 
-    System.out.print("Enter the no of UG students: ");   
-    int num_of_UG_students = input.nextInt();
+        System.out.print("Enter the no of UG students: ");   
+        int num_of_UG_students = input.nextInt();
 
     System.out.print("Enter the no of Graduate students: ");   
     int num_of_grad_students = input.nextInt();
